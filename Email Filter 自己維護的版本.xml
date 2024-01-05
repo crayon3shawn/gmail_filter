@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom'
+	xmlns:apps='http://schemas.google.com/apps/2006'>
+	<title>Mail Filters</title>
+
+<!--電子發票 過濾器開始-->  
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value=''/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='發票 OR invoice'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='電子發票'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value='true'/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--銀行 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='
+		AclinkMail@taishinbank.com.tw OR 
+		webmaster@bhurecv.taishinbank.com.tw OR
+		NetbankService@email.esunbank.com.tw OR NetBankService@esbmailernew.esunbank.com.tw OR
+		service@pxbillrc01.cathaybk.com.tw OR
+		csr@ebank-statement.feib.com.tw OR
+		ebillservice@estatement.linebank.com.tw OR
+		ebill@estats.ctbcbank.com
+		'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value='登入'/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='銀行'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value='true'/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--股票 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='fugle@esunsec.com.tw'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='股票'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value='true'/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--刪除銀行登入通知 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value=''/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='網路銀行成功登入通知'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value=''/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value='true'/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value=''/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--刪除台新交易成功 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='AclinkMail@taishinbank.com.tw'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value='交易扣款成功'/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value=''/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value='true'/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value=''/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--中華電信 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value=''/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='中華電信'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='中華電信'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value='true'/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--刪除EPIC GOG 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='newsletter@email3.gog.com'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value=''/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value='true'/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value=''/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--刪除pchome登入通知 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='shoppingsc@pchome.com.tw'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='登入成功'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value=''/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value='true'/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value=''/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--學校 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value=''/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='ccu'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='學校'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--輔導中心 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='admsys@ccu.edu.tw'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='輔導中心'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value='true'/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value=''/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--ecourse2 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value=''/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value='ecourse'/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='ecourse2'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+
+<!--國家公園 過濾器開始-->
+	<entry>
+		<category term='filter'></category>
+		<title>Mail Filter</title>
+		<content></content>
+
+		<!--過濾條件-->
+		<apps:property name='from' value='npmcpami@cpami.gov.tw'/>
+		<!--寄件人-->
+		<apps:property name='to' value=''/>
+		<!--收件人-->
+		<apps:property name='subject' value=''/>
+		<!--標題-->
+		<apps:property name='hasTheWord' value=''/>
+		<!--包含關鍵字-->
+		<apps:property name='doesNotHaveTheWord' value=''/>
+		<!--不包含關鍵字-->
+
+		<!--動作-->
+		<apps:property name='label' value='國家公園'/>
+		<!--標籤-->
+		<apps:property name='shouldMarkAsRead' value=''/>
+		<!--是否已讀-->
+		<apps:property name='shouldArchive' value=''/>
+		<!--是否封存-->
+		<apps:property name='shouldTrash' value=''/>
+		<!--是否刪除-->
+		<apps:property name='shouldNeverSpam' value='true'/>
+		<!--永不標示垃圾-->
+		<apps:property name='shouldMarkAsImportant' value=''/>
+		<!--標示重要-->
+		<apps:property name='shouldNeverMarkAsImportant' value=''/>
+		<!--永不標示重要-->
+		<apps:property name='smartLabelToApply' value='^smartlabel_notification'/>
+		<!--郵件分類-->
+		<apps:property name='sizeOperator' value='s_sl'/>
+		<apps:property name='sizeUnit' value='s_smb'/>
+	</entry>
+<!--過濾器結束-->
+</feed>
