@@ -1,0 +1,1 @@
+希望有一天用apps script寫出自動化的email filter產生器
